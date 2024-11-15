@@ -4,7 +4,7 @@
 
 ## Enunciado del examen
 
-|([Parte 1](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/592c78bc2db4c01641a66ff2b1fb54acb2c7de89/images/ExamenParcialEnunciado/Foto1.jpg))|([Parte 2](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/592c78bc2db4c01641a66ff2b1fb54acb2c7de89/images/ExamenParcialEnunciado/Foto2.jpg))|
+| ([](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/592c78bc2db4c01641a66ff2b1fb54acb2c7de89/images/ExamenParcialEnunciado/Foto1.jpg))|([](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/592c78bc2db4c01641a66ff2b1fb54acb2c7de89/images/ExamenParcialEnunciado/Foto2.jpg))|
 
 # Examen
  ## Diagrama de Clases 
