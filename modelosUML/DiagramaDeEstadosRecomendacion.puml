@@ -1,0 +1,18 @@
+@startuml
+[*] --> sinRecomendado :usuario registrado sin subscripcion
+
+
+state Turno <<choice>>
+
+
+
+
+
+
+sinRecomendado --> Turno :si se subscribe
+Turno --> recomienda :si
+Turno --> noHayDatos :no 
+noHayDatos -->sinRecomendado
+recomienda --> categoria :sobre 
+categoria --> [*]
+@enduml
