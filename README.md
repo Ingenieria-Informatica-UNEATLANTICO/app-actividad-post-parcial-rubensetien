@@ -4,7 +4,7 @@
 
 ## Enunciado del examen
 
-[Enunciado Examen]()
+|(images/ExamenParcialEnunciado/Foto1.jpg)|
 
 # Examen
  ## Diagrama de Clases 
