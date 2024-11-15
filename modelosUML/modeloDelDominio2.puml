@@ -1,0 +1,47 @@
+@startuml
+hide empty members
+hide circle
+class Usuario {
+}
+
+class Dispositivo {
+}
+
+class Perfil {
+}
+
+class Viewer {
+}
+
+class CreadorDeContenido {
+}
+
+class Condiciones {
+}
+
+class Categoría {
+}
+
+class Subscripción {
+}
+
+class Recomendación {
+}
+
+class Contenido {
+}
+
+Usuario --> Dispositivo : "usa"
+Usuario --> Perfil : "gestiona"
+Usuario --> Condiciones : "acepta"
+Usuario --> Viewer : "puede ser"
+Usuario --> CreadorDeContenido : "puede ser"
+Viewer --> Subscripción : "posee"
+Subscripción --> Recomendación : "genera"
+Recomendación --> Categoría : "se basa en"
+Categoría --> Contenido : "agrupa"
+CreadorDeContenido --> Contenido : "crea"
+CreadorDeContenido --> Categoría : "trabaja en"
+CreadorDeContenido --|> Viewer : "es también un"
+
+@enduml

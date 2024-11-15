@@ -1,0 +1,67 @@
+@startuml
+hide empty members
+hide circle
+
+class Dispositivo {
+  tablet
+}
+
+class Perfil {
+  ruben
+}
+
+class Usuario {
+  Ruseti
+}
+
+class Dispositivo2 {
+  Ordenador
+}
+
+class CreadorDeContenido {
+  Ibai
+}
+
+class Perfil2 {
+  Ibai
+}
+
+class Condiciones {
+  Politica de Condiciones
+}
+
+class Condiciones2 {
+  Gestion de Derechos Digitales
+}
+
+class Categoría {
+  videojuegos
+}
+
+class Subscripción {
+  vip
+}
+
+class Recomendación {
+  Recomendación de videojuegos
+}
+
+class Contenido {
+  LoL
+}
+
+Usuario --> Dispositivo : usa
+Usuario --> Perfil : tiene
+Usuario --> Condiciones : acepta
+Usuario --> Subscripción : tiene
+
+Subscripción --> Recomendación : establece
+Recomendación --> Categoría : sobre
+Categoría --> Contenido : pertenece
+
+CreadorDeContenido --> Categoría : crea
+CreadorDeContenido --> Perfil2 : tiene
+CreadorDeContenido --> Dispositivo2 : usa
+CreadorDeContenido --> Condiciones2 : acepta
+
+@enduml
