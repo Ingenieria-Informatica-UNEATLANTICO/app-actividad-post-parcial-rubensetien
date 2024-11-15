@@ -1,0 +1,22 @@
+@startuml
+[*] --> Desconocido
+
+state Desconocido {
+    
+}
+state Turno <<choice>>
+
+state "Registro como Viewer?" as ViewerRegistro {
+    }
+
+state "Viewer en Proceso" as ViewerProceso {
+    }
+
+state "En Progreso" as EnProgreso {
+    }
+
+
+state "Creador de Contenido" as Contenido
+Contenido --> [*]
+Desconocido --- Turno :registra Como viewer
+@enduml
