@@ -7,6 +7,9 @@
 |[Parte 1](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/592c78bc2db4c01641a66ff2b1fb54acb2c7de89/images/ExamenParcialEnunciado/Foto1.jpg) | [Parte 2](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/592c78bc2db4c01641a66ff2b1fb54acb2c7de89/images/ExamenParcialEnunciado/Foto2.jpg)|
 
 # Examen
+[PDf con la respuesta del examen](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-rubensetien/blob/d9e9c2d211c54500fe9a1ed5ba6c16905c818cc2/documents/Parcial_IDSw1.pdf)
+
+# Post-Examen
  ## Diagrama de Clases 
 | Diagrama | Código Fuente |
 |----------|---------------|
